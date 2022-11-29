@@ -8,14 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		84A8A4462936499E00D0FBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A4452936499E00D0FBBD /* AppDelegate.swift */; };
-		84A8A4482936499E00D0FBBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A4472936499E00D0FBBD /* SceneDelegate.swift */; };
-		84A8A44A2936499E00D0FBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A4492936499E00D0FBBD /* ViewController.swift */; };
 		84A8A44D2936499E00D0FBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A44B2936499E00D0FBBD /* Main.storyboard */; };
 		84A8A44F293649A000D0FBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A44E293649A000D0FBBD /* Assets.xcassets */; };
 		84A8A452293649A000D0FBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A450293649A000D0FBBD /* LaunchScreen.storyboard */; };
 		84A8A45D293649A000D0FBBD /* Factory_MethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A45C293649A000D0FBBD /* Factory_MethodTests.swift */; };
 		84A8A467293649A000D0FBBD /* Factory_MethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A466293649A000D0FBBD /* Factory_MethodUITests.swift */; };
 		84A8A469293649A000D0FBBD /* Factory_MethodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A468293649A000D0FBBD /* Factory_MethodUITestsLaunchTests.swift */; };
+		84A8A47929364CA200D0FBBD /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A47829364CA200D0FBBD /* Creator.swift */; };
+		84A8A47C29364CE900D0FBBD /* ConcreteCreator1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A47B29364CE900D0FBBD /* ConcreteCreator1.swift */; };
+		84A8A47E29364D0100D0FBBD /* ConcreteCreator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A47D29364D0100D0FBBD /* ConcreteCreator2.swift */; };
+		84A8A48129364D3D00D0FBBD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A48029364D3D00D0FBBD /* Product.swift */; };
+		84A8A48329364D6C00D0FBBD /* ConcreteProduct1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A48229364D6C00D0FBBD /* ConcreteProduct1.swift */; };
+		84A8A48529364D7E00D0FBBD /* ConcreteProduct2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A48429364D7E00D0FBBD /* ConcreteProduct2.swift */; };
+		84A8A48829364DDA00D0FBBD /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A48729364DDA00D0FBBD /* Client.swift */; };
+		84A8A48C29364E4200D0FBBD /* FactoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A48B29364E4200D0FBBD /* FactoryVC.swift */; };
+		84A8A491293651BE00D0FBBD /* ProjectorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A490293651BE00D0FBBD /* ProjectorFactory.swift */; };
+		84A8A494293651FF00D0FBBD /* WifiFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A493293651FF00D0FBBD /* WifiFactory.swift */; };
+		84A8A4972936521C00D0FBBD /* BluetoothFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A4962936521C00D0FBBD /* BluetoothFactory.swift */; };
+		84A8A49B2936526500D0FBBD /* Projector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A49A2936526500D0FBBD /* Projector.swift */; };
+		84A8A49D2936527A00D0FBBD /* WifiProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A49C2936527A00D0FBBD /* WifiProjector.swift */; };
+		84A8A49F2936528C00D0FBBD /* BluetoothProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A49E2936528C00D0FBBD /* BluetoothProjector.swift */; };
+		84A8A4A22936530000D0FBBD /* ClientCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A8A4A12936530000D0FBBD /* ClientCode.swift */; };
+		84A8A4AA29365C9400D0FBBD /* Info.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84A8A4A929365C9400D0FBBD /* Info.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +52,6 @@
 /* Begin PBXFileReference section */
 		84A8A4422936499E00D0FBBD /* Factory Method.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Factory Method.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8A4452936499E00D0FBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84A8A4472936499E00D0FBBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84A8A4492936499E00D0FBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84A8A44C2936499E00D0FBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A8A44E293649A000D0FBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A8A451293649A000D0FBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,22 @@
 		84A8A462293649A000D0FBBD /* Factory MethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Factory MethodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A8A466293649A000D0FBBD /* Factory_MethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory_MethodUITests.swift; sourceTree = "<group>"; };
 		84A8A468293649A000D0FBBD /* Factory_MethodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory_MethodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84A8A47829364CA200D0FBBD /* Creator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
+		84A8A47B29364CE900D0FBBD /* ConcreteCreator1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteCreator1.swift; sourceTree = "<group>"; };
+		84A8A47D29364D0100D0FBBD /* ConcreteCreator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteCreator2.swift; sourceTree = "<group>"; };
+		84A8A48029364D3D00D0FBBD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		84A8A48229364D6C00D0FBBD /* ConcreteProduct1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProduct1.swift; sourceTree = "<group>"; };
+		84A8A48429364D7E00D0FBBD /* ConcreteProduct2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteProduct2.swift; sourceTree = "<group>"; };
+		84A8A48729364DDA00D0FBBD /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		84A8A48B29364E4200D0FBBD /* FactoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryVC.swift; sourceTree = "<group>"; };
+		84A8A490293651BE00D0FBBD /* ProjectorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectorFactory.swift; sourceTree = "<group>"; };
+		84A8A493293651FF00D0FBBD /* WifiFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiFactory.swift; sourceTree = "<group>"; };
+		84A8A4962936521C00D0FBBD /* BluetoothFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothFactory.swift; sourceTree = "<group>"; };
+		84A8A49A2936526500D0FBBD /* Projector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projector.swift; sourceTree = "<group>"; };
+		84A8A49C2936527A00D0FBBD /* WifiProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WifiProjector.swift; sourceTree = "<group>"; };
+		84A8A49E2936528C00D0FBBD /* BluetoothProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothProjector.swift; sourceTree = "<group>"; };
+		84A8A4A12936530000D0FBBD /* ClientCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientCode.swift; sourceTree = "<group>"; };
+		84A8A4A929365C9400D0FBBD /* Info.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Info.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +128,13 @@
 			isa = PBXGroup;
 			children = (
 				84A8A4452936499E00D0FBBD /* AppDelegate.swift */,
-				84A8A4472936499E00D0FBBD /* SceneDelegate.swift */,
-				84A8A4492936499E00D0FBBD /* ViewController.swift */,
-				84A8A44B2936499E00D0FBBD /* Main.storyboard */,
+				84A8A48E2936519700D0FBBD /* Example */,
+				84A8A475293649F800D0FBBD /* Factory */,
+				84A8A48929364E0A00D0FBBD /* ViewController's */,
+				84A8A48D29364EC900D0FBBD /* Storyboards */,
 				84A8A44E293649A000D0FBBD /* Assets.xcassets */,
-				84A8A450293649A000D0FBBD /* LaunchScreen.storyboard */,
 				84A8A453293649A000D0FBBD /* Info.plist */,
+				84A8A4A929365C9400D0FBBD /* Info.rtf */,
 			);
 			path = "Factory Method";
 			sourceTree = "<group>";
@@ -125,6 +154,107 @@
 				84A8A468293649A000D0FBBD /* Factory_MethodUITestsLaunchTests.swift */,
 			);
 			path = "Factory MethodUITests";
+			sourceTree = "<group>";
+		};
+		84A8A475293649F800D0FBBD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A48629364DD100D0FBBD /* Client */,
+				84A8A47F29364D3300D0FBBD /* Product */,
+				84A8A47A29364CE000D0FBBD /* Creator */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		84A8A47A29364CE000D0FBBD /* Creator */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A47829364CA200D0FBBD /* Creator.swift */,
+				84A8A47B29364CE900D0FBBD /* ConcreteCreator1.swift */,
+				84A8A47D29364D0100D0FBBD /* ConcreteCreator2.swift */,
+			);
+			path = Creator;
+			sourceTree = "<group>";
+		};
+		84A8A47F29364D3300D0FBBD /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A48029364D3D00D0FBBD /* Product.swift */,
+				84A8A48229364D6C00D0FBBD /* ConcreteProduct1.swift */,
+				84A8A48429364D7E00D0FBBD /* ConcreteProduct2.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		84A8A48629364DD100D0FBBD /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A48729364DDA00D0FBBD /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		84A8A48929364E0A00D0FBBD /* ViewController's */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A48A29364E1A00D0FBBD /* FactoryVC */,
+			);
+			path = "ViewController's";
+			sourceTree = "<group>";
+		};
+		84A8A48A29364E1A00D0FBBD /* FactoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A48B29364E4200D0FBBD /* FactoryVC.swift */,
+			);
+			path = FactoryVC;
+			sourceTree = "<group>";
+		};
+		84A8A48D29364EC900D0FBBD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A44B2936499E00D0FBBD /* Main.storyboard */,
+				84A8A450293649A000D0FBBD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		84A8A48E2936519700D0FBBD /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A4A0293652F400D0FBBD /* Client */,
+				84A8A4982936523700D0FBBD /* Factory */,
+				84A8A4992936525200D0FBBD /* Projector */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		84A8A4982936523700D0FBBD /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A490293651BE00D0FBBD /* ProjectorFactory.swift */,
+				84A8A4962936521C00D0FBBD /* BluetoothFactory.swift */,
+				84A8A493293651FF00D0FBBD /* WifiFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		84A8A4992936525200D0FBBD /* Projector */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A49A2936526500D0FBBD /* Projector.swift */,
+				84A8A49C2936527A00D0FBBD /* WifiProjector.swift */,
+				84A8A49E2936528C00D0FBBD /* BluetoothProjector.swift */,
+			);
+			path = Projector;
+			sourceTree = "<group>";
+		};
+		84A8A4A0293652F400D0FBBD /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				84A8A4A12936530000D0FBBD /* ClientCode.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +363,7 @@
 			files = (
 				84A8A452293649A000D0FBBD /* LaunchScreen.storyboard in Resources */,
 				84A8A44F293649A000D0FBBD /* Assets.xcassets in Resources */,
+				84A8A4AA29365C9400D0FBBD /* Info.rtf in Resources */,
 				84A8A44D2936499E00D0FBBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +389,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A8A44A2936499E00D0FBBD /* ViewController.swift in Sources */,
+				84A8A491293651BE00D0FBBD /* ProjectorFactory.swift in Sources */,
+				84A8A49F2936528C00D0FBBD /* BluetoothProjector.swift in Sources */,
 				84A8A4462936499E00D0FBBD /* AppDelegate.swift in Sources */,
-				84A8A4482936499E00D0FBBD /* SceneDelegate.swift in Sources */,
+				84A8A48C29364E4200D0FBBD /* FactoryVC.swift in Sources */,
+				84A8A47C29364CE900D0FBBD /* ConcreteCreator1.swift in Sources */,
+				84A8A47E29364D0100D0FBBD /* ConcreteCreator2.swift in Sources */,
+				84A8A49B2936526500D0FBBD /* Projector.swift in Sources */,
+				84A8A48329364D6C00D0FBBD /* ConcreteProduct1.swift in Sources */,
+				84A8A494293651FF00D0FBBD /* WifiFactory.swift in Sources */,
+				84A8A47929364CA200D0FBBD /* Creator.swift in Sources */,
+				84A8A4A22936530000D0FBBD /* ClientCode.swift in Sources */,
+				84A8A48129364D3D00D0FBBD /* Product.swift in Sources */,
+				84A8A49D2936527A00D0FBBD /* WifiProjector.swift in Sources */,
+				84A8A48529364D7E00D0FBBD /* ConcreteProduct2.swift in Sources */,
+				84A8A48829364DDA00D0FBBD /* Client.swift in Sources */,
+				84A8A4972936521C00D0FBBD /* BluetoothFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +584,11 @@
 				DEVELOPMENT_TEAM = N4M3759P9C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Factory Method/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Factory Method";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +596,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Factory-Method";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,11 +615,11 @@
 				DEVELOPMENT_TEAM = N4M3759P9C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Factory Method/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Factory Method";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +627,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Factory-Method";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
